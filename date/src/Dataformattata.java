@@ -18,33 +18,20 @@ public class Dataformattata {
     }
 
     String MeseDs(){
-        switch (this.mese) {
-            case 1:
-                return "gennaio";
-            case 2:
-                return "febbraio";
-            case 3:
-                return "marzo";
-            case 4:
-                return "aprile";
-            case 5:
-                return "maggio";
-            case 6:
-                return "giugno";
-            case 7:
-                return "luglio";
-            case 8:
-                return "agosto";
-            case 9:
-                return "settembre";
-            case 10:
-                return "ottobre";
-            case 11:
-                return "novembre";
-            case 12:
-                return "dicembre";
-            default:
-                return "mese non valido";
-        }
+        return switch (this.mese) {
+            case 1 -> "gennaio";
+            case 2 -> "febbraio";
+            case 3 -> "marzo";
+            case 4 -> "aprile";
+            case 5 -> "maggio";
+            case 6 -> "giugno";
+            case 7 -> "luglio";
+            case 8 -> "agosto";
+            case 9 -> "settembre";
+            case 10 -> "ottobre";
+            case 11 -> "novembre";
+            case 12 -> "dicembre";
+            default -> "mese non valido";
+        };
     }
 }
