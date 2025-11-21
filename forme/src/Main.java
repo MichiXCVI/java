@@ -21,7 +21,5 @@ public class Main {
         System.out.println("Base:  " + quadrato.lato);
         System.out.println("2p:    " + quadrato.perimetro);
         System.out.println("Area:  " + quadrato.area);
-
-        System.out.println("madonna ladra");
     }
 }
