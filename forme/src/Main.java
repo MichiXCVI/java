@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Triangolo triangolo = new Triangolo(3.0, 2.0 ,3.0);
+        Triangolo triangolo = new Triangolo(2.0, 2.0 ,3.0);
         Quadrato quadrato = new Quadrato(4);
 
         System.out.println("<------- Triangolo ------->");
