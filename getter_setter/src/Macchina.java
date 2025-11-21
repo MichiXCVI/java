@@ -16,6 +16,20 @@ public class Macchina {
         return colore;
     }
     String getPrezzo(){
-        return "$" + prezzo;
+        if(prezzo > 0){
+            return "$" + prezzo;
+        }else{
+            return "la macchina è gratis";
+        }
+    }
+    void setColore(String colore){
+        this.colore = colore;
+    }
+    void setPrezzo(int prezzo) {
+        if (prezzo >= 0) {
+            this.prezzo = prezzo;
+        } else {
+            System.out.println("Inserisci un prezzo valido");
+        }
     }
 }
