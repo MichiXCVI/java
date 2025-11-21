@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Triangolo triangolo = new Triangolo(2.0, 2.0 ,3.0);
+        Triangolo triangolo = new Triangolo(3.0, 2.0 ,3.0);
         Quadrato quadrato = new Quadrato(4);
 
         System.out.println("<------- Triangolo ------->");
@@ -11,15 +11,15 @@ public class Main {
         }else{
             System.out.println("Tipo:  Scaleno");
         }
-        System.out.println("Base:  " + triangolo.lato);
-        System.out.println("Lato1: " + triangolo.lato1);
-        System.out.println("Lato2: " + triangolo.lato2);
-        System.out.println("2p:    " + triangolo.perimetro);
-        System.out.println("Area:  " + triangolo.area);
+        System.out.println("Base:  " + triangolo.lato + "cm");
+        System.out.println("Lato1: " + triangolo.lato1 + "cm");
+        System.out.println("Lato2: " + triangolo.lato2 + "cm");
+        System.out.println("2p:    " + triangolo.perimetro + "cm");
+        System.out.printf("Area:  %.2fmq", triangolo.area);
         System.out.println();
         System.out.println("<------- Quadrato ------->");
-        System.out.println("Base:  " + quadrato.lato);
-        System.out.println("2p:    " + quadrato.perimetro);
-        System.out.println("Area:  " + quadrato.area);
+        System.out.println("Base:  " + quadrato.lato + "cm");
+        System.out.println("2p:    " + quadrato.perimetro + "cm");
+        System.out.println("Area:  " + quadrato.area + "mq");
     }
 }
