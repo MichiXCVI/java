@@ -19,15 +19,15 @@ public class Dataformattata {
 
     String MeseDs(){
         return switch (this.mese) {
-            case 1 -> "gennaio";
-            case 2 -> "febbraio";
-            case 3 -> "marzo";
-            case 4 -> "aprile";
-            case 5 -> "maggio";
-            case 6 -> "giugno";
-            case 7 -> "luglio";
-            case 8 -> "agosto";
-            case 9 -> "settembre";
+            case 1  -> "gennaio";
+            case 2  -> "febbraio";
+            case 3  -> "marzo";
+            case 4  -> "aprile";
+            case 5  -> "maggio";
+            case 6  -> "giugno";
+            case 7  -> "luglio";
+            case 8  -> "agosto";
+            case 9  -> "settembre";
             case 10 -> "ottobre";
             case 11 -> "novembre";
             case 12 -> "dicembre";
