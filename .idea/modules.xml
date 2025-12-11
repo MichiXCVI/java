@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/data_get_set/data_get_set.iml" filepath="$PROJECT_DIR$/data_get_set/data_get_set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/date/date.iml" filepath="$PROJECT_DIR$/date/date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eccezioni/eccezioni.iml" filepath="$PROJECT_DIR$/eccezioni/eccezioni.iml" />
+      <module fileurl="file://$PROJECT_DIR$/email/email.iml" filepath="$PROJECT_DIR$/email/email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es_verifica1/es_verifica1.iml" filepath="$PROJECT_DIR$/es_verifica1/es_verifica1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es_verifica2/es_verifica2.iml" filepath="$PROJECT_DIR$/es_verifica2/es_verifica2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forme/forme.iml" filepath="$PROJECT_DIR$/forme/forme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/getter_setter/getter_setter.iml" filepath="$PROJECT_DIR$/getter_setter/getter_setter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gioc/gioc.iml" filepath="$PROJECT_DIR$/gioc/gioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n1/n1.iml" filepath="$PROJECT_DIR$/n1/n1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primo ogg/primo ogg.iml" filepath="$PROJECT_DIR$/primo ogg/primo ogg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progetti2/progetti2.iml" filepath="$PROJECT_DIR$/progetti2/progetti2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skuola/skuola.iml" filepath="$PROJECT_DIR$/skuola/skuola.iml" />
+      <module fileurl="file://$PROJECT_DIR$/squadre/squadre.iml" filepath="$PROJECT_DIR$/squadre/squadre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/strings/strings.iml" filepath="$PROJECT_DIR$/strings/strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studenti/studenti.iml" filepath="$PROJECT_DIR$/studenti/studenti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/torta/torta.iml" filepath="$PROJECT_DIR$/torta/torta.iml" />
+    </modules>
+  </component>
+</project>

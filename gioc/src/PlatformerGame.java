@@ -9,7 +9,7 @@ public class PlatformerGame {
     public PlatformerGame() {
         frame = new JFrame("Platformer Game");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1330, 768); // risoluzione aggiornata
+        frame.setSize(1330, 768);
         frame.setLocationRelativeTo(null);
 
         // Inizializza i pannelli

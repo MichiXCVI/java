@@ -16,7 +16,7 @@ public class Dataformattata {
     }
 
     private void exit() {
-        exit();
+        System.exit(0);
     }
     void isBisestile() {
         if((anno % 400 == 0) || (anno % 4 == 0 && anno % 100 != 0)){
