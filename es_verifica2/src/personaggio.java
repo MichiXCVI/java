@@ -24,11 +24,16 @@ public class personaggio {
     }
 
     int attacca(){
+        setVita(10);
         return 10;
+    }
+
+    void setVita(int vita){
+        this.vita -= vita;
     }
 
     @Override
     public String toString() {
-        return "personaggio: " + "nome=" + this.nome + ", vita: " + this.vita;
+        return "nome: " + this.nome + ", vita: " + this.vita;
     }
 }

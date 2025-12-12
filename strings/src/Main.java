@@ -4,6 +4,7 @@ public class Main {
 
         if (nome.isEmpty()) {
             System.out.println("il nome è vuoto");
+            System.exit(0);
         } else {
             System.out.println("il nome non è vuoto");
         }

@@ -10,6 +10,7 @@ public class mago extends personaggio {
     int attacca() {
         if(mana >= 10){
             mana -= 10;
+            super.setVita(25);
             return 25;
         }else{
             return super.attacca();
