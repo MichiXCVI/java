@@ -57,6 +57,7 @@ public class Ordine {
             this.mese_cons = mese;
             this.anno_cons = anno;
             this.standard = false;
+            this.programma = true;
         }
         this.assicurazione = assicurazione;
         if (this.assicurazione) {
