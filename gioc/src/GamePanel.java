@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class GamePanel extends JPanel implements ActionListener, KeyListener {
     private Timer timer;
@@ -56,10 +57,10 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
     private void checkVictory() {
         if (player1.getY() > centralPlatform.y + 200) {
             gameOver = true;
-            winner = "Player 2 vince!";
+            winner = "Vince Pat";
         } else if (player2.getY() > centralPlatform.y + 200) {
             gameOver = true;
-            winner = "Player 1 vince!";
+            winner = "Vince Ronca";
         }
     }
 
@@ -85,8 +86,11 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
         if (gameOver) {
             g.setFont(new Font("Arial", Font.BOLD, 40));
             g.setColor(Color.GREEN);
-            g.drawString(winner, getWidth()/2 - 150, getHeight()/2);
-
+            if(Objects.equals(winner, "pat")){
+                g.drawString(winner, getWidth()/2 - 80, getHeight()/2);
+            }else{
+                g.drawString(winner, getWidth()/2 - 100, getHeight()/2);
+            }
             g.setFont(new Font("Arial", Font.PLAIN, 20));
             g.setColor(Color.WHITE);
             g.drawString("Premi R per ricominciare", getWidth()/2 - 100, getHeight()/2 + 50);
