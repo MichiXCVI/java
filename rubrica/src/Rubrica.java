@@ -9,9 +9,10 @@ public class Rubrica {
     }
 
     void rimuoviContatto(String nome, String cognome) {
-        for (Contatto contatto : rubrica) {
-            if (contatto.getNome().equals(nome) && contatto.getCognome().equals(cognome)) {
-                rubrica.remove(contatto);
+        for (int i = 0; i < rubrica.size(); i++) {
+            Contatto c = rubrica.get(i);
+            if (c.getNome().equals(nome) && c.getCognome().equals(cognome)) {
+                rubrica.remove(i);
             }
         }
     }

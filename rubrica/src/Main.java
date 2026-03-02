@@ -12,5 +12,7 @@ public class Main {
         rubrica.addContact("checcoglione", "Cogniglietto", "12345 67 69");
         System.out.println(rubrica.cerca("Giulio", "Bicicletta"));
         rubrica.toString();
+        rubrica.rimuoviContatto("ricky", "pat");
+        rubrica.toString();
     }
 }
